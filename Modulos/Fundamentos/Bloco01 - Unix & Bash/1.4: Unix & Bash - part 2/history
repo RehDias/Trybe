@@ -1,0 +1,4 @@
+# Mostra o histórico de comandos
+history
+# Pegar os últimos 10 comandos
+history | tail

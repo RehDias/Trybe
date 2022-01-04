@@ -1,0 +1,29 @@
+header{
+  text-align: center;
+  margin: 2%;
+  color: #797d62;
+  background-color: #d4d3d3;
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+  background-color: #bebebe;
+}
+.dados{
+  box-sizing: border-box;
+  width: 100%;
+  text-align: justify;
+}
+.content{
+  margin-bottom: 15px;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#input-state{
+  border-radius: 5px;
+  background-color: #afafaea9;
+}

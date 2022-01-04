@@ -1,0 +1,13 @@
+h1, p, ol, ul {
+    text-align: center;
+    transition: all;
+}
+li:hover {
+    background-color: coral;    
+}
+li:active {
+    font-size: larger;
+}
+ul, ol {
+    list-style: none;
+}

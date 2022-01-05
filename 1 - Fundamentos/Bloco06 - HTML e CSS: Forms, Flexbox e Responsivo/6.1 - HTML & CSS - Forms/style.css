@@ -6,10 +6,10 @@ header{
   padding: 10px;
   border: 1px solid #e6e6e6;
   border-radius: 4px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
   background-color: #bebebe;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .dados{
   box-sizing: border-box;
@@ -18,12 +18,36 @@ body{
 }
 .content{
   margin-bottom: 15px;
-  padding: 10px;
-  display: inline-block;
+  padding: 3px;
   border-radius: 5px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #input-state{
   border-radius: 5px;
   background-color: #afafaea9;
+  font-size: 16px;
+}
+.textarea{
+  width: 100%;
+  resize: none;
+  height: 50px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  background-color: #dfdfdf;
+}
+fieldset{
+  margin-bottom: 30px;  
+}
+input[type = text]{
+  border-radius: 5px;
+  text-align: justify;
+  width: 50%;
+  height: 25px;
+  font-size: 16px;
+  background-color: #dfdfdf;
+}
+.botao{
+  font-size: 18px;
+  border-radius: 5px;
+  margin: 10px;
 }

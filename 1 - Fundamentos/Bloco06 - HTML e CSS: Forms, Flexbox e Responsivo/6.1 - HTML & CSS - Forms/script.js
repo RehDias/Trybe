@@ -5,9 +5,6 @@ let date = document.getElementById('input-date');
 let form = document.getElementsByClassName('formulario');
 let botao = document.getElementsByClassName('botao');
 
-function interromper(){
-  form.preventDefault();
-}
 
 function verifyDate(){
   if(date !== dd/mm/aaaa){
